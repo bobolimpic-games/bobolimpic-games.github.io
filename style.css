@@ -119,10 +119,3 @@ button:hover {
 .telegram {
   color: rgb(76, 114, 218);
 }
-
-.hide {
-  position: absolute;
-  opacity: 0%;
-  width: 0px;
-  height: 0px;
-}
