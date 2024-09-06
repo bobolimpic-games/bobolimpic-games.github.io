@@ -7,6 +7,8 @@ header {
 body {
   background-color: rgb(255, 246, 239);
   font-family: "Inter", sans-serif;
+  margin: auto;
+  padding: auto;
 }
 
 body, nav {
@@ -44,6 +46,7 @@ button:hover {
 
 #pageHeader {
   grid-area: header;
+  margin: 10px 5px;
 }
 
 #pageFooter {
@@ -52,12 +55,14 @@ button:hover {
   color: rgb(200, 166, 137);
   font-size: 30px;
   padding: 20px;
+  border-radius: 20px;
+  margin: 5px;
 }
 
 #mainArticle {
   grid-area: article;
   font-size: 30px;
-  margin: 50px 0px;
+  margin: 50px 5px;
   width: calc(100% - 500px);
 }
 
