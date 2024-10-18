@@ -59,6 +59,11 @@ button:hover {
   margin: 5px;
 }
 
+#pageFooter>* {
+  width: 40px;
+  height: 40px;
+}
+
 #mainArticle {
   grid-area: article;
   font-size: 30px;
